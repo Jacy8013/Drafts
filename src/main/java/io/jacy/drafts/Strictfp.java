@@ -26,7 +26,7 @@ public class Strictfp {
         return a + b;
     }
 
-    public strictfp static void main(String[] args) {
+    public static void main(String[] args) {
         float aFloat = 0.6710339f;
         double aDouble = 0.04150553411984792d;
 
@@ -40,5 +40,10 @@ public class Strictfp {
         System.out.println(d);
 
         System.out.println(14.4 + 0.1);
+
+        System.out.println(9 == 9.0);
+
+        Integer i = 2;
+
     }
 }
