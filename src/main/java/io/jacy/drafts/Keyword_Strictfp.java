@@ -5,7 +5,7 @@ package io.jacy.drafts;
  *
  * @author Jacy
  */
-public class Strictfp {
+public class Keyword_Strictfp {
 
     static class Strict {
         private double d = Math.random();
