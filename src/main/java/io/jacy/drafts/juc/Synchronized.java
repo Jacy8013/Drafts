@@ -36,6 +36,8 @@ public class Synchronized {
         synchronized (o1){
             System.out.println("null pointer");
         }
+
+        new Synchronized().m1();
     }
 
 

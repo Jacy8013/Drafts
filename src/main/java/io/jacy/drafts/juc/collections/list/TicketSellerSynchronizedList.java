@@ -15,7 +15,6 @@ public class TicketSellerSynchronizedList {
     static int threadNum = 100;
     static int ticketNum = 1000;
     static List<String> tickets = Collections.synchronizedList(new ArrayList<>());
-    static final Object LOCK = new Object();
 
     static {
         for (int i = 0; i < ticketNum; i++) {

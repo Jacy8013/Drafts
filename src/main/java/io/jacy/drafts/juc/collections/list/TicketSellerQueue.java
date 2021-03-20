@@ -16,7 +16,6 @@ public class TicketSellerQueue {
     static int threadNum = 100;
     static int ticketNum = 1000;
     static Queue<String> tickets = new ConcurrentLinkedQueue<>();
-    static final Object LOCK = new Object();
 
     static {
         for (int i = 0; i < ticketNum; i++) {
